@@ -1,7 +1,7 @@
 {
   "name": "auth-massive",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a short example of how to use passport local, passport facebook, and massive with a sql database.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,8 +15,17 @@
     "cors": "^2.7.1",
     "express": "^4.14.0",
     "express-session": "^1.14.0",
+    "gulp": "^3.9.1",
     "massive": "^2.5.0",
     "passport": "^0.3.2",
     "passport-auth0": "^0.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamparke/auth-lesson-auth0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamparke/auth-lesson-auth0/issues"
+  },
+  "homepage": "https://github.com/jamparke/auth-lesson-auth0#readme"
 }
